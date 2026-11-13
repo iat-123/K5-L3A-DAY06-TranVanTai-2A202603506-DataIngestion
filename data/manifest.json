@@ -1,0 +1,846 @@
+{
+  "sources": [
+    {
+      "source_id": "openstax-intro-python",
+      "title": "Introduction to Python Programming (OpenStax)",
+      "authors": "Udayan Das, Aubrey Lawson, Chris Mayfield, Narges Norouzi (senior contributing authors)",
+      "publisher": "OpenStax, Rice University",
+      "source_path_or_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming-WEB.pdf",
+      "local_path": "starter/data/raw/intro-python-programming.pdf",
+      "book_page_url": "https://openstax.org/details/books/introduction-python-programming",
+      "license_or_permission": "CC BY-NC-SA 4.0 (stated on PDF page 4: '©2026 Rice University ... licensed under a Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License')",
+      "accessed_at": "2026-11-13",
+      "snapshot_sha256": "e1298e4fcfe541a8fc3bb786c5756d3d2be8e6ffc07997f1bc1e0ac270be383d",
+      "physical_pages_total": 397,
+      "selected_range": [
+        {
+          "chapter": 4,
+          "title": "Decisions",
+          "pdf_first_page": 95,
+          "pdf_last_page": 124
+        },
+        {
+          "chapter": 5,
+          "title": "Loops",
+          "pdf_first_page": 125,
+          "pdf_last_page": 146
+        },
+        {
+          "chapter": 6,
+          "title": "Functions",
+          "pdf_first_page": 147,
+          "pdf_last_page": 174
+        }
+      ]
+    }
+  ],
+  "page_counting_rule": "Physical PDF pages inside the selected chapters; a page counts when its normalized text (NFC, whitespace collapsed, running footer and 'Access for free at openstax.org' removed) has >= 300 characters. Cover, TOC, preface and other chapters are outside the range.",
+  "summary": {
+    "physical_pages_in_range": 80,
+    "content_pages_counted": 76,
+    "excluded_pages": 4,
+    "content_chars_counted": 83764
+  },
+  "pages": [
+    {
+      "page_id": "openstax-intro-python:p095",
+      "pdf_page": 95,
+      "book_page": null,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1212,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p096",
+      "pdf_page": 96,
+      "book_page": 86,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1075,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p097",
+      "pdf_page": 97,
+      "book_page": 87,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 929,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p098",
+      "pdf_page": 98,
+      "book_page": 88,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1127,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p099",
+      "pdf_page": 99,
+      "book_page": 89,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 730,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p100",
+      "pdf_page": 100,
+      "book_page": 90,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1898,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p101",
+      "pdf_page": 101,
+      "book_page": 91,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1089,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p102",
+      "pdf_page": 102,
+      "book_page": 92,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1246,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p103",
+      "pdf_page": 103,
+      "book_page": 93,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 780,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p104",
+      "pdf_page": 104,
+      "book_page": 94,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1323,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p105",
+      "pdf_page": 105,
+      "book_page": 95,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 957,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p106",
+      "pdf_page": 106,
+      "book_page": 96,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 951,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p107",
+      "pdf_page": 107,
+      "book_page": 97,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 960,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p108",
+      "pdf_page": 108,
+      "book_page": 98,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1175,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p109",
+      "pdf_page": 109,
+      "book_page": 99,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1271,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p110",
+      "pdf_page": 110,
+      "book_page": 100,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1282,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p111",
+      "pdf_page": 111,
+      "book_page": 101,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1490,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p112",
+      "pdf_page": 112,
+      "book_page": 102,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 771,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p113",
+      "pdf_page": 113,
+      "book_page": 103,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 993,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p114",
+      "pdf_page": 114,
+      "book_page": 104,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 594,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p115",
+      "pdf_page": 115,
+      "book_page": 105,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 990,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p116",
+      "pdf_page": 116,
+      "book_page": 106,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1326,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p117",
+      "pdf_page": 117,
+      "book_page": 107,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1043,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p118",
+      "pdf_page": 118,
+      "book_page": 108,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 718,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p119",
+      "pdf_page": 119,
+      "book_page": 109,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1428,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p120",
+      "pdf_page": 120,
+      "book_page": 110,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1137,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p121",
+      "pdf_page": 121,
+      "book_page": 111,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 1814,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p122",
+      "pdf_page": 122,
+      "book_page": 112,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 782,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p123",
+      "pdf_page": 123,
+      "book_page": 113,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 389,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p124",
+      "pdf_page": 124,
+      "book_page": 114,
+      "chapter": 4,
+      "chapter_title": "Decisions",
+      "chars": 0,
+      "counted": false,
+      "exclusion_reason": "no extractable text"
+    },
+    {
+      "page_id": "openstax-intro-python:p125",
+      "pdf_page": 125,
+      "book_page": null,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1196,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p126",
+      "pdf_page": 126,
+      "book_page": 116,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1335,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p127",
+      "pdf_page": 127,
+      "book_page": 117,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1277,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p128",
+      "pdf_page": 128,
+      "book_page": 118,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1362,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p129",
+      "pdf_page": 129,
+      "book_page": 119,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1096,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p130",
+      "pdf_page": 130,
+      "book_page": 120,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1036,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p131",
+      "pdf_page": 131,
+      "book_page": 121,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1104,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p132",
+      "pdf_page": 132,
+      "book_page": 122,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1353,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p133",
+      "pdf_page": 133,
+      "book_page": 123,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1002,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p134",
+      "pdf_page": 134,
+      "book_page": 124,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 499,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p135",
+      "pdf_page": 135,
+      "book_page": 125,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1042,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p136",
+      "pdf_page": 136,
+      "book_page": 126,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 880,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p137",
+      "pdf_page": 137,
+      "book_page": 127,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1327,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p138",
+      "pdf_page": 138,
+      "book_page": 128,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 887,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p139",
+      "pdf_page": 139,
+      "book_page": 129,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 931,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p140",
+      "pdf_page": 140,
+      "book_page": 130,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1005,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p141",
+      "pdf_page": 141,
+      "book_page": 131,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1536,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p142",
+      "pdf_page": 142,
+      "book_page": 132,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 556,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p143",
+      "pdf_page": 143,
+      "book_page": 133,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 1718,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p144",
+      "pdf_page": 144,
+      "book_page": 134,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 576,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p145",
+      "pdf_page": 145,
+      "book_page": 135,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 788,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p146",
+      "pdf_page": 146,
+      "book_page": 136,
+      "chapter": 5,
+      "chapter_title": "Loops",
+      "chars": 112,
+      "counted": false,
+      "exclusion_reason": "only 112 chars after footer removal (end-of-chapter remainder / link-only page)"
+    },
+    {
+      "page_id": "openstax-intro-python:p147",
+      "pdf_page": 147,
+      "book_page": null,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1078,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p148",
+      "pdf_page": 148,
+      "book_page": 138,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1281,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p149",
+      "pdf_page": 149,
+      "book_page": 139,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1274,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p150",
+      "pdf_page": 150,
+      "book_page": 140,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 808,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p151",
+      "pdf_page": 151,
+      "book_page": 141,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1426,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p152",
+      "pdf_page": 152,
+      "book_page": 142,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 988,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p153",
+      "pdf_page": 153,
+      "book_page": 143,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1008,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p154",
+      "pdf_page": 154,
+      "book_page": 144,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1413,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p155",
+      "pdf_page": 155,
+      "book_page": 145,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1092,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p156",
+      "pdf_page": 156,
+      "book_page": 146,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1013,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p157",
+      "pdf_page": 157,
+      "book_page": 147,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1023,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p158",
+      "pdf_page": 158,
+      "book_page": 148,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 704,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p159",
+      "pdf_page": 159,
+      "book_page": 149,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1301,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p160",
+      "pdf_page": 160,
+      "book_page": 150,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1296,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p161",
+      "pdf_page": 161,
+      "book_page": 151,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1123,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p162",
+      "pdf_page": 162,
+      "book_page": 152,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1413,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p163",
+      "pdf_page": 163,
+      "book_page": 153,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1289,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p164",
+      "pdf_page": 164,
+      "book_page": 154,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1134,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p165",
+      "pdf_page": 165,
+      "book_page": 155,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1134,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p166",
+      "pdf_page": 166,
+      "book_page": 156,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1045,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p167",
+      "pdf_page": 167,
+      "book_page": 157,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 829,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p168",
+      "pdf_page": 168,
+      "book_page": 158,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 901,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p169",
+      "pdf_page": 169,
+      "book_page": 159,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1355,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p170",
+      "pdf_page": 170,
+      "book_page": 160,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1280,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p171",
+      "pdf_page": 171,
+      "book_page": 161,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 1966,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p172",
+      "pdf_page": 172,
+      "book_page": 162,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 604,
+      "counted": true,
+      "exclusion_reason": null
+    },
+    {
+      "page_id": "openstax-intro-python:p173",
+      "pdf_page": 173,
+      "book_page": 163,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 257,
+      "counted": false,
+      "exclusion_reason": "only 257 chars after footer removal (end-of-chapter remainder / link-only page)"
+    },
+    {
+      "page_id": "openstax-intro-python:p174",
+      "pdf_page": 174,
+      "book_page": 164,
+      "chapter": 6,
+      "chapter_title": "Functions",
+      "chars": 0,
+      "counted": false,
+      "exclusion_reason": "no extractable text"
+    }
+  ]
+}

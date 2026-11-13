@@ -1,0 +1,19 @@
+{
+  "source_id": "openstax-intro-python",
+  "title": "Introduction to Python Programming (OpenStax)",
+  "authors": "Udayan Das, Aubrey Lawson, Chris Mayfield, Narges Norouzi (senior contributing authors)",
+  "publisher": "OpenStax, Rice University",
+  "source_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_to_Python_Programming-WEB.pdf",
+  "book_page_url": "https://openstax.org/details/books/introduction-python-programming",
+  "local_path": "data/raw/intro-python-programming.pdf",
+  "sha256": "e1298e4fcfe541a8fc3bb786c5756d3d2be8e6ffc07997f1bc1e0ac270be383d",
+  "accessed_at": "2026-11-13",
+  "license": "CC BY-NC-SA 4.0 (stated on PDF page 4: '©2026 Rice University ... licensed under a Creative Commons Attribution Non-Commercial ShareAlike 4.0 International License')",
+  "physical_pages_total": 397,
+  "chapters": [
+    {"chapter": 4, "title": "Decisions", "pdf_first_page": 95, "pdf_last_page": 124},
+    {"chapter": 5, "title": "Loops", "pdf_first_page": 125, "pdf_last_page": 146},
+    {"chapter": 6, "title": "Functions", "pdf_first_page": 147, "pdf_last_page": 174}
+  ],
+  "min_content_chars": 300
+}

@@ -1,5 +1,7 @@
 # Starter · PostgreSQL + pgvector
 
+> **Trạng thái bài làm:** các hàm TODO trong `src/` **đã được hiện thực** (ingestion, chunking, embeddings, store, evaluation, run, cùng `audit.py`), thêm `scripts/download_corpus.py`, `build_manifest.py`, `verify_benchmark.py` và file `corpus.json`. Lệnh chạy đầy đủ: mục "Bài làm" trong [README gốc](../README.md). Phần bên dưới là hướng dẫn gốc của starter, giữ nguyên để tham khảo.
+
 Bộ khởi động **tùy chọn** cho lab cá nhân. Docker Compose tạo PostgreSQL + pgvector local; các file trong `src/` là **khung pseudocode có TODO**, chưa đọc tài liệu, tạo embedding, lưu vector hay chạy benchmark. Bạn cần tự hiện thực. Vẫn có thể chọn Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
 
 ## Cấu trúc

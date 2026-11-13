@@ -1,5 +1,38 @@
 # Day 06 · Data Ingestion Engineering
 
+> ## Bài làm — Trần Văn Tài (2A202603506)
+>
+> **Corpus:** OpenStax *Introduction to Python Programming* (CC BY-NC-SA 4.0), chương 4–6, 76/80 trang PDF có nội dung — [data/manifest.json](data/manifest.json).
+> **Embedding:** OpenAI `text-embedding-3-small` (1536 chiều). **Vector store:** PostgreSQL 16 + pgvector 0.8.7, bảng `day6_chunks`, cosine chính xác (không ANN).
+> **Chiến lược:** A fixed 500/50 · B theo đoạn/heading ≤800 · C = B + filter `chapter` — [artifacts/experiment_log.csv](artifacts/experiment_log.csv).
+> **Benchmark:** 26 câu (20 dev / 6 test) — [benchmark/](benchmark/README.md). **Kết quả và audit:** [starter/results/](starter/results/). **Báo cáo:** [report/individual/2A202603506_TranVanTai.md](report/individual/2A202603506_TranVanTai.md).
+>
+> | Strategy | Dev Hit@1 | Dev Evidence Hit@3 | Test Hit@1 | Test Evidence Hit@3 | Coherence /2 | Grounding /2 (test) |
+> |---|---|---|---|---|---|---|
+> | A | 4/20 | 12/20 | 0/6 | 3/6 | 1,2 | 1,00 |
+> | B | 14/20 | 20/20 | 2/6 | 4/6 | 1,8 | 1,67 |
+> | **C (chọn trên dev)** | 15/20 | 20/20 | 3/6 | 5/6 | 1,8 | 1,83 |
+>
+> ### Chạy lại (cần Docker + Python 3.11–3.14 + OpenAI API key)
+>
+> ```bash
+> cd starter
+> python -m venv .venv                       # Windows: .venv\Scripts\activate ; macOS/Linux: source .venv/bin/activate
+> python -m pip install -r requirements.txt
+> cp .env.example .env                       # Windows PowerShell: Copy-Item .env.example .env ; rồi điền OPENAI_API_KEY
+> docker compose -p day6_student_starter up -d --wait
+> python scripts/check_setup.py
+> python scripts/download_corpus.py          # tải PDF, kiểm tra SHA-256
+> python scripts/build_manifest.py           # -> ../data/manifest.json, results/ingestion_log.txt
+> python scripts/verify_benchmark.py         # kiểm chứng evidence trên trang gold
+> python -m src.run ingest                   # chunk A/B, embed, upsert; chạy lần 2 để kiểm tra không trùng
+> python -m src.run evaluate --split dev
+> python -m src.run evaluate --split test    # chỉ sau khi chọn cấu hình trên dev
+> python -m src.run audit                    # tạo bảng chấm thủ công (ghi đè file audit — sao lưu nhãn trước)
+> ```
+>
+> ---
+
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
 Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.

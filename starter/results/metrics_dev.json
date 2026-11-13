@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "run_at": "2026-11-13T11:04:50+00:00",
+    "split": "dev",
+    "embedding_model": "text-embedding-3-small",
+    "query_embedding_tokens": 286,
+    "query_embedding_seconds": 0.35,
+    "strategies": {
+      "A": {
+        "chunking": "fixed_size",
+        "size": 500,
+        "overlap": 50,
+        "index": "A",
+        "use_filter": false
+      },
+      "B": {
+        "chunking": "by_paragraph",
+        "max_size": 800,
+        "min_size": 80,
+        "index": "B",
+        "use_filter": false
+      },
+      "C": {
+        "chunking": "by_paragraph (same index as B)",
+        "index": "B",
+        "use_filter": true
+      }
+    }
+  },
+  "summary": {
+    "A|dev": {
+      "strategy": "A",
+      "split": "dev",
+      "N": 20,
+      "hit1": 4,
+      "hit3": 12,
+      "page_hit3": 18,
+      "filter_N": 2,
+      "filter_ok": 0,
+      "misses": [
+        "q02",
+        "q03",
+        "q07",
+        "q08",
+        "q10",
+        "q15",
+        "q17",
+        "q18"
+      ],
+      "hit@1": "4/20",
+      "evidence_hit@3": "12/20",
+      "page_hit@3": "18/20",
+      "filter_compliance": "0/2"
+    },
+    "B|dev": {
+      "strategy": "B",
+      "split": "dev",
+      "N": 20,
+      "hit1": 14,
+      "hit3": 20,
+      "page_hit3": 20,
+      "filter_N": 2,
+      "filter_ok": 0,
+      "misses": [],
+      "hit@1": "14/20",
+      "evidence_hit@3": "20/20",
+      "page_hit@3": "20/20",
+      "filter_compliance": "0/2"
+    },
+    "C|dev": {
+      "strategy": "C",
+      "split": "dev",
+      "N": 20,
+      "hit1": 15,
+      "hit3": 20,
+      "page_hit3": 20,
+      "filter_N": 2,
+      "filter_ok": 2,
+      "misses": [],
+      "hit@1": "15/20",
+      "evidence_hit@3": "20/20",
+      "page_hit@3": "20/20",
+      "filter_compliance": "2/2"
+    }
+  }
+}

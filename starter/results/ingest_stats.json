@@ -1,0 +1,47 @@
+{
+  "run_at": "2026-11-13T11:04:39+00:00",
+  "embedding_provider": "openai",
+  "embedding_model": "text-embedding-3-small",
+  "dimensions": 1536,
+  "content_pages": 76,
+  "indexes": {
+    "A": {
+      "chunks": 218,
+      "rows_in_db": 218,
+      "embedded_this_run": 0,
+      "skipped_unchanged": 218,
+      "deleted_obsolete": 0,
+      "chars_total": 90864,
+      "len_min": 51,
+      "len_median": 500.0,
+      "len_mean": 416.8,
+      "len_max": 500,
+      "embedding_tokens_this_run": 0,
+      "cost_usd_this_run": 0.0,
+      "seconds": {
+        "chunk": 0.001,
+        "embed": 0.0,
+        "store": 0.03
+      }
+    },
+    "B": {
+      "chunks": 220,
+      "rows_in_db": 220,
+      "embedded_this_run": 0,
+      "skipped_unchanged": 220,
+      "deleted_obsolete": 0,
+      "chars_total": 83620,
+      "len_min": 105,
+      "len_median": 313.5,
+      "len_mean": 380.1,
+      "len_max": 790,
+      "embedding_tokens_this_run": 0,
+      "cost_usd_this_run": 0.0,
+      "seconds": {
+        "chunk": 0.004,
+        "embed": 0.0,
+        "store": 0.02
+      }
+    }
+  }
+}

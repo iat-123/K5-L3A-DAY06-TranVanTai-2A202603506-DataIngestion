@@ -1,0 +1,4 @@
+p124: excluded - no extractable text
+p146: excluded - only 112 chars after footer removal (end-of-chapter remainder / link-only page)
+p173: excluded - only 257 chars after footer removal (end-of-chapter remainder / link-only page)
+p174: excluded - no extractable text
